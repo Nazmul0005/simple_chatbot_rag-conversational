@@ -1,0 +1,278 @@
+DOCUMENT METADATA
+Document Type: Substance Use & Mental Health Resource Guide
+Primary Categories: Emergency Resources, Harm Reduction, Medication Treatment, Support Resources, Coping Strategies, Tips & Techniques
+Target Audience: Individuals facing substance use disorders, mental health challenges, and their support networks
+
+1. EMERGENCY RESOURCES
+1.1 Life-Threatening Emergencies
+Service: 911
+Use Case: Life-threatening emergencies
+Availability: Always call immediately
+Action: Call 911
+1.2 Suicide & Crisis Lifeline
+Service: 988 Lifeline
+Contact: Call or text 988
+Use Case: Mental health distress or suicidal thoughts
+Availability: 24/7 support
+1.3 Crisis Text Line
+Service: Crisis Counselor
+Contact: Text "HOME" to 741741
+Use Case: Connect with a Crisis Counselor
+Availability: 24/7
+1.4 Veterans Crisis Line
+Service: Veterans-specific crisis support
+Contact: Call 988 and press 1, or text 838255
+Target: Veterans
+Availability: Immediate help
+1.5 Emergency Room
+Service: Emergency medical attention
+Use Case: Crisis requiring immediate medical attention
+Action: Visit nearest emergency room
+Resource: https://findtreatment.gov/
+1.6 SAMHSA Treatment Locator
+Service: Treatment facility finder
+Use Case: Local treatment facilities for substance use and mental health issues
+Resource: https://findtreatment.gov/
+
+2. HARM REDUCTION
+2.1 Naloxone (Narcan)
+Description: Medication that can reverse an opioid overdose
+Purpose: Life-saving medication for opioid overdose
+Resource: https://www.samhsa.gov/medication-assisted-treatment/medications-counseling-related-conditions/opioid-overdose
+2.2 Safer Use Practices
+Description: Information on reducing harm while using substances
+Topics: Safer injection techniques, avoiding mixing substances, recognizing overdose signs
+Resource: https://mattersnetwork.org/resource-hub/harm-reduction/
+2.3 Fentanyl Test Strips
+Description: Tools to detect presence of fentanyl in substances before use
+Purpose: Prevent accidental fentanyl exposure
+Resource: https://www.samhsa.gov/find-help/harm-reduction
+2.4 Needle Exchange Programs
+Description: Syringe services programs
+Services: Clean needles, disposal services, harm reduction supplies
+Purpose: Find local programs
+Resource: https://oasas.ny.gov/prevention/syringe-exchange
+2.5 Good Samaritan Laws
+Description: Legal protections for calling 911 during overdose emergency
+Protection: Protects people even if substances are present
+Resource: https://oasas.ny.gov/good-samaritan-law
+2.6 Preventing Infectious Diseases
+Description: Information on preventing HIV, hepatitis, and other infections
+Transmission Route: Through substance use
+Resource: https://mattersnetwork.org/resource-hub/
+2.7 Harm Reduction Principles
+Philosophy: Focuses on positive change and working with people without judgment, coercion, discrimination, or requiring abstinence
+Approach: Support without preconditions
+Resource: https://www.samhsa.gov/find-help/harm-reduction
+3. MEDICATION TREATMENT
+3.1 Overview: Medication-Assisted Treatment (MAT)
+Definition: Use of medications in combination with counseling and behavioral therapies
+Approach: Whole-patient treatment of substance use disorders
+Approval: FDA-approved medications
+3.2 Opioid Treatment Options
+3.2.1 Acamprosate
+Type: Opioid agonist
+Function: Reduces opioid cravings and withdrawal symptoms
+Distribution: Dispensed only through SAMHSA-certified opioid treatment programs (OTPs)
+Dosing: Daily dosing typically required
+3.2.2 Buprenorphine
+Type: Partial opioid agonist
+Function: Reduces cravings and withdrawal symptoms
+Prescribers: Qualified physicians, nurse practitioners, and physician assistants with waiver
+Forms: Tablets, film, or extended-release injection
+3.2.3 Naltrexone
+Type: Opioid antagonist
+Function: Blocks euphoric effects of opioids
+Properties: Non-addictive, does not lead to physical dependence
+Forms: Tablets or extended-release injectable
+3.3 Alcohol Treatment Options
+3.3.1 Acamprosate (Alcohol)
+Type: Opioid agonist
+Function: Reduces opioid cravings and withdrawal symptoms
+Distribution: Dispensed only through SAMHSA-certified opioid treatment programs (OTPs)
+Dosing: Daily dosing typically required
+3.3.2 Disulfiram
+Function: Causes unpleasant reactions when alcohol is consumed
+Mechanism: Acts as deterrent by making person feel sick if they consume alcohol
+3.3.3 Naltrexone (Alcohol)
+Function: Blocks pleasurable effects of alcohol and reduces cravings
+Forms: Daily oral tablet or monthly injection
+Property: Does not cause withdrawal if person drinks while taking it
+3.4 Tobacco/Nicotine Treatment Options
+3.4.1 Bupropion
+Function: Helps reduce cravings and withdrawal symptoms
+Type: Antidepressant medication
+Purpose: Help people quit smoking
+Form: Extended-release prescription medication
+3.4.2 Varenicline
+Function: Reduces both pleasurable effects of nicotine and withdrawal symptoms
+Mechanism: Partially activates nicotine receptors while blocking nicotine from binding
+Type: Prescription medication
+3.4.3 Nicotine Replacement Therapies (NRT)
+Function: Provides nicotine without harmful chemicals found in tobacco
+Forms: Patches, gum, lozenges, inhalers, nasal sprays
+Availability: Some over-the-counter, others require prescription
+3.5 Stimulants (Cocaine/Methamphetamine) Treatment Options
+3.5.1 Current Research Status
+Status: No FDA-approved medications specifically for stimulant use disorder currently exist
+Research: Ongoing studies
+Primary Treatment: Behavioral therapies remain primary approach
+3.5.2 Off-Label Options
+Status: Some medications prescribed off-label for symptom management
+Examples: Modafinil, bupropion, certain antidepressants
+Note: Not FDA approved specifically for stimulant use disorder
+3.6 Find Treatment Near You
+3.6.1 SAMHSA's Treatment Locator
+Service: Find treatment facilities and programs
+Coverage: United States or U.S. Territories
+For: Mental and substance use disorders
+URL: https://findtreatment.gov/
+3.6.2 SAMHSA's National Helpline
+Contact: 1-800-662-HELP (4357)
+Service: Treatment referral and information service
+Properties: Free, confidential, 24/7
+3.6.3 Buprenorphine Practitioner & Treatment Program Locator
+Service: Find practitioners authorized to treat opioid dependency with buprenorphine
+Search: By state
+3.6.4 Opioid Treatment Program Directory
+Service: Find treatment programs by state
+Treatment: Addiction and dependence on opioids
+
+4. SUPPORT RESOURCES
+4.1 Helplines
+4.1.1 SAMHSA's National Helpline
+Contact: 1-800-662-HELP (4357)
+Service: Treatment referral and information service
+Target: Individuals and families facing mental and/or substance use disorders
+Properties: Free, confidential, 24/7
+4.2 Support Groups
+4.2.1 Alcoholics Anonymous
+Service: Local AA meetings and resources
+Focus: Alcohol wellness support
+URL: https://www.aa.org/
+4.2.2 SmartWellness
+Type: Science-based wellness support group
+Format: Online and in-person meetings
+URL: https://www.aa.org/
+4.3 Educational Resources
+4.3.1 National Institute on Drug Abuse
+Content: Research-based information on drug use and its consequences
+URL: https://nida.nih.gov/
+
+5. COPING STRATEGIES
+5.1 Mindfulness Strategies
+5.1.1 Focus on Your Breath
+Technique: Deep breathing exercises
+Purpose: Reduce stress and anxiety
+Method: Breathe in slowly for count of 4, hold for 1 second, breathe out for count of 5
+5.1.2 Practice Grounding Techniques
+Technique: 5-4-3-2-1 method
+Use: When feeling overwhelmed
+Method: Identify 5 things you see, 4 things you can touch, 3 things you hear, 2 things you smell, 1 thing you taste
+5.2 Cognitive Strategies
+5.2.1 Manage Negative Thoughts
+Technique: Challenge negative self-talk
+Method: Question accuracy and replace with balanced thoughts
+5.2.2 Set Realistic Goals
+Approach: Break down wellness goals into small, achievable steps
+Focus: Rather than focusing on never using again
+5.3 Behavioral Strategies
+5.3.1 Delay and Distract
+Method: Set timer for 20 minutes before acting on craving
+Activities: Walking, calling friend, listening to music
+5.3.2 Identify Triggers
+Method: Keep journal of when cravings occur
+Track: Specific people, places, emotions, or situations
+5.4 Wellness & Social Strategies
+5.4.1 Build a Support Network
+Method: Connect with others who understand
+Options: Support groups, trusted friends, family members
+5.4.2 Practice Self-Care
+Focus: Adequate sleep, nutrition, physical activity
+Benefit: Reduce stress and cravings
+
+6. TIPS & STRATEGIES
+6.1 Quick Tips
+6.1.1 Dealing with Cravings
+Technique: 5-minute rule
+Method: Wait 5 minutes before giving in
+Rationale: Most cravings fade in this time
+6.1.2 Urge Surfing
+Approach: Notice urge without judgment
+Visualization: Imagine as wave that rises, peaks, and eventually subsides
+6.1.3 Replacement Activities
+Method: Immediately substitute healthy activity when urge arises
+Examples: Walking, calling friend
+6.1.4 Habit Stacking
+Method: Link new healthy habit with existing one
+Example: "After I brush my teeth, I'll meditate for 2 minutes"
+6.1.5 Environment Design
+Method: Remove triggers from environment
+Example: If alcohol is challenge, don't keep it at home
+6.2 SAMHSA Strategies
+6.2.1 Play the Tape Through (Thinking Strategy)
+Method: Think about entire experience of acting on feelings
+Focus: Not just immediate relief, but how you'll feel afterwards
+Consider: Potential regret or disappointment
+6.2.2 HALT Check-in (Behavioral Strategy)
+Method: Ask if you're Hungry, Angry, Lonely, or Tired
+Rationale: These states often trigger urges
+Action: Address underlying need with healthy choices
+6.2.3 DEADS Strategy (Behavioral Strategy)
+Components: Delay, Escape, Avoid, Distract, Substitute
+Purpose: Multiple approaches to manage urges
+6.2.4 Mindfulness Practice (Thinking Strategy)
+Method: Observe feeling without judgment
+Visualization: Like wave that rises, peaks, and subsides on its own
+6.2.5 Build Wellness Support (Social Strategy)
+Focus: Continuously strengthen support systems
+Elements: Coping skills and resources
+Purpose: Maintain wellness and make healthy choices with urges
+
+7. DETAILED TECHNIQUES
+7.1 Urge Surfing Technique
+Developer
+Creator: Dr. Alan Marlatt
+Purpose
+Goal: Manage cravings through mindfulness
+Steps
+Notice when experiencing an urge
+Instead of resisting or acting, observe it with curiosity
+Pay attention to physical sensations in body
+Breathe deeply and imagine urge as wave
+The wave will rise, peak, and eventually subside on its own
+Continue to breathe and observe as intensity decreases
+Key Quote
+"Cravings are like ocean waves: they grow in intensity, peak, and eventually subside. Your job is not to fight the wave but to ride it out."
+7.2 DEADS Strategy Explained
+D - Delay
+Action: Postpone decision to use for 15 minutes or more
+Purpose: Give craving time to pass
+E - Escape
+Action: Leave high-risk situation or environment
+Purpose: Remove from triggering environment
+A - Avoid
+Action: Identify and stay away from trigger people, places, and things
+Purpose: Prevent craving activation
+D - Distract
+Action: Engage in alternative activity
+Purpose: Take mind off craving
+S - Substitute
+Action: Use healthy alternative
+Purpose: Satisfy underlying need
+7.3 HALT Method
+Purpose
+Use: Check state before acting on craving
+H - Hungry
+Issue: Physical hunger can be mistaken for cravings
+Solution: Try eating nutritious meal first
+A - Angry
+Issue: Emotional distress triggering urge
+Solution: Process emotions through journaling, talking to someone, or physical activity
+L - Lonely
+Issue: Social isolation triggering urge
+Solution: Reach out to supportive friend, family member, or recovery community
+T - Tired
+Issue: Physical exhaustion triggering urge
+Solution: Rest, take nap, or practice relaxation techniques to restore energy
+
