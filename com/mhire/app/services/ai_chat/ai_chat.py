@@ -90,7 +90,12 @@ User Query: {request.query}
 PROFESSIONAL RESOURCES:
 {context}
 
-Respond naturally based on these resources. Keep it conversational (1-2 sentences typically). For serious issues, mention consulting a professional."""
+IMPORTANT: When responding, ALWAYS include any relevant links/URLs from the resources above. 
+Format links clearly so the user can easily access them.
+
+Respond naturally based on these resources. Keep it conversational (1-2 sentences typically). 
+For serious issues, mention consulting a professional.
+ALWAYS include relevant links/resources at the end of your response."""
         else:
             # Build prompt without context
             prompt_text = f"""You are Sora, a warm and supportive best friend helping with health and habits.
@@ -191,46 +196,126 @@ async def _get_rag_context(query: str) -> tuple[str, str]:
         return "", "general"
 
 
+# RAG Trigger Keywords - Comprehensive keyword mapping for RAG activation
+RAG_TRIGGER_KEYWORDS = {
+    # CRISIS & EMERGENCY (Highest Priority)
+    "crisis": [
+        "crisis", "emergency", "suicide", "suicidal", "kill myself", "end my life",
+        "want to die", "self harm", "self-harm", "hurt myself", "overdose", "od",
+        "can't go on", "no point living", "better off dead", "ending it all", "SAMHSA", "samsha"
+    ],
+    # CRAVINGS & URGES
+    "cravings": [
+        "craving", "crave", "urge", "temptation", "want to use", "need to use",
+        "thinking about using", "struggling not to", "hard not to", "can't resist",
+        "giving in", "slip up"
+    ],
+    # RELAPSE & STRUGGLES
+    "relapse": [
+        "relapse", "relapsed", "used again", "fell off", "slipped", "messed up",
+        "failed", "broke my streak", "gave in", "couldn't stop", "lost control"
+    ],
+    # TRIGGERS & DIFFICULT SITUATIONS
+    "triggers": [
+        "trigger", "triggered", "tempting situation", "high risk", "around people who",
+        "at a party", "stressful", "overwhelmed", "anxious", "depressed", "lonely",
+        "angry", "tired", "hungry"
+    ],
+    # WITHDRAWAL & SYMPTOMS
+    "withdrawal": [
+        "withdrawal", "withdrawing", "detox", "shakes", "sweating", "nausea", "sick",
+        "symptoms", "coming off", "quitting cold turkey"
+    ],
+    # HELP & RESOURCES
+    "help": [
+        "help", "need help", "where can i", "how do i get", "looking for", "find",
+        "resource", "support", "program", "treatment", "therapy", "counseling",
+        "hotline", "helpline", "crisis line", "call"
+    ],
+    # MEDICATION & TREATMENT
+    "medication": [
+        "medication", "medicine", "prescription", "drug", "treatment", "mat",
+        "medication assisted", "buprenorphine", "naltrexone", "naloxone", "narcan",
+        "methadone", "suboxone", "acamprosate", "disulfiram", "antabuse", "varenicline",
+        "chantix", "bupropion", "wellbutrin", "nicotine patch", "nicotine gum"
+    ],
+    # SPECIFIC SUBSTANCES
+    "substances": [
+        "alcohol", "drinking", "drunk", "beer", "wine", "liquor", "vodka", "opioid",
+        "heroin", "fentanyl", "oxy", "oxycodone", "percocet", "vicodin", "pills",
+        "painkillers", "cocaine", "coke", "crack", "meth", "methamphetamine", "speed",
+        "marijuana", "weed", "cannabis", "tobacco", "cigarette", "smoking", "vaping",
+        "nicotine", "soda", "junk food", "fast food", "sugar", "caffeine"
+    ],
+    # COPING TECHNIQUES
+    "coping": [
+        "cope", "coping", "deal with", "handle", "manage", "technique", "strategy",
+        "method", "tip", "advice", "what should i do", "how do i", "grounding",
+        "breathing", "mindfulness", "meditation", "distraction", "urge surfing",
+        "halt", "deads"
+    ],
+    # RECOVERY & SOBRIETY
+    "recovery": [
+        "recovery", "recovering", "sober", "sobriety", "clean", "abstinence", "quit",
+        "quitting", "stop", "stopping", "rehab", "rehabilitation", "aa", "na",
+        "12 step", "alcoholics anonymous", "narcotics anonymous", "support group"
+    ],
+    # HARM REDUCTION
+    "harm_reduction": [
+        "harm reduction", "safer use", "overdose prevention", "needle exchange",
+        "syringe", "test strips", "fentanyl test", "good samaritan", "safe injection",
+        "reduce harm"
+    ],
+    # MENTAL HEALTH
+    "mental_health": [
+        "depressed", "depression", "anxiety", "anxious", "panic", "ptsd", "trauma",
+        "bipolar", "mental health", "therapy", "psychiatrist", "psychologist", "counselor"
+    ],
+    # PHYSICAL SYMPTOMS
+    "physical": [
+        "sleep", "insomnia", "can't sleep", "tired", "exhausted", "appetite", "weight",
+        "pain", "ache", "headache", "stomach"
+    ]
+}
+
+
 def _determine_category(query: str) -> str:
     """
-    Determine the resource category based on query keywords.
+    Determine the resource category based on comprehensive RAG trigger keywords.
+    
+    Returns the category name if keywords are found, otherwise returns "general".
+    Priority order: crisis > cravings > relapse > triggers > withdrawal > help > 
+                   medication > substances > coping > recovery > harm_reduction > 
+                   mental_health > physical
     """
     query_lower = query.lower()
     
-    # Emergency keywords
-    emergency_keywords = [
-        "overdose", "suicidal", "suicide", "self-harm", "harm myself",
-        "emergency", "urgent", "crisis", "dying", "death", "kill myself",
-        "severe", "critical", "immediate help", "911", "ambulance"
+    # Priority order for category matching
+    priority_order = [
+        "crisis",
+        "cravings",
+        "relapse",
+        "triggers",
+        "withdrawal",
+        "help",
+        "medication",
+        "substances",
+        "coping",
+        "recovery",
+        "harm_reduction",
+        "mental_health",
+        "physical"
     ]
     
-    # Coping keywords
-    coping_keywords = [
-        "craving", "urge", "struggling", "struggling with", "hard time",
-        "difficult", "tempted", "want to", "can't stop", "help me",
-        "manage", "cope", "deal with", "handle"
-    ]
+    # Check each category in priority order
+    for category in priority_order:
+        keywords = RAG_TRIGGER_KEYWORDS.get(category, [])
+        if any(keyword in query_lower for keyword in keywords):
+            logger.debug(f"Matched category '{category}' for query: {query[:100]}")
+            return category
     
-    # Treatment keywords
-    treatment_keywords = [
-        "medication", "medicine", "drug", "treatment", "therapy",
-        "doctor", "professional", "help", "cure", "heal", "recover",
-        "prescription", "antidepressant", "anxiety", "depression"
-    ]
-    
-    # Check emergency first (highest priority)
-    if any(keyword in query_lower for keyword in emergency_keywords):
-        return "emergency"
-    
-    # Check treatment
-    if any(keyword in query_lower for keyword in treatment_keywords):
-        return "treatment"
-    
-    # Check coping
-    if any(keyword in query_lower for keyword in coping_keywords):
-        return "coping_strategies"
-    
-    # Default to general
+    # No keywords matched - return general (no RAG needed)
+    logger.debug(f"No RAG keywords matched for query: {query[:100]}")
     return "general"
 
 
